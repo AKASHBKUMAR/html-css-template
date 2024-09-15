@@ -1,0 +1,207 @@
+/*
+- TYPOGRAPHY:  
+
+- Font Size Sysytem (px)
+  ---- 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font-Weight
+
+- Line-Height
+  --- Default: 1
+
+-Color:
+  --- Primary Color: #e67e22, #cf711f
+  --- Tint: #fae5d3
+  --- Shades: 
+  --- Accents: 
+  --- Greys: #343a40, #495057
+
+- Shadows:  
+
+- Border-Radius: 
+  start-eating-well-button: 1rem
+  main-navigation-links: 1rem
+
+- Whitespace: 
+  --- Spacing System (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+  font-family: "Rubik";
+  color: #732147;
+  background-color: #ffffff;
+}
+.box-layout {
+  height: max-content;
+}
+.fluid-layout {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-logo-text {
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+
+  font-weight: 150;
+  font-style: italic;
+  font-family: "Honey Sky Personal Use";
+}
+.company-logo-text span {
+  color: #1a5325;
+}
+.main-navigation-list {
+  list-style: none;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+.main-navigation-link:link,
+.main-navigation-link:visited {
+  color: #732147;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.main-navigation-link:hover,
+.main-navigation-link:active {
+  color: #000;
+}
+.hero-section {
+  background-image: url("/assets/images/Bike\ Adventure.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: max-content;
+}
+.hero-text-container {
+  padding-top: 6rem;
+
+  width: 45%;
+  margin-left: 5%;
+  height: max-content;
+}
+.hero-text {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1;
+  font-weight: 400;
+}
+.hero-title {
+  font-size: 4.8rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  text-overflow: clip;
+}
+.hero-title span {
+  font-weight: 400;
+}
+.destination-text-container {
+  margin-top: 3.2rem;
+  margin-bottom: 1rem;
+}
+.destination-section {
+  width: 90%;
+  margin: 0 auto;
+}
+.destination-heading {
+  font-size: 3.6rem;
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+.destination-description {
+  font-size: 1.6rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #212529;
+  column-gap: 2rem;
+}
+.destination-item {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+.destination-item-image {
+  width: 100%;
+  object-fit: fill;
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+}
+.destination-location {
+  font-size: 0.8rem;
+}
+
+.destination-title-lines {
+  display: inline-block;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.destination-location {
+  font-size: 1rem;
+}
+.destination-title-container {
+  margin-bottom: 2.4rem;
+}
+.destination-description {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  align-content: justify;
+}
+.destination-link:link,
+.destination-link:visited {
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #732147;
+  padding: 0.9rem 1rem;
+}
+.hero-input {
+  width: 100%;
+  height: 3.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  border: none;
+}
+/* Coontact Section */
+.contact-section {
+  background-color: #f8f9fa;
+}
+.contact-layout {
+  width: 80%;
+  margin: 0 auto;
+}
+.label-text {
+  color: #212529;
+  font-size: 1.6rem;
+}
+.input {
+  height: 2rem;
+  width: 50%;
+  margin-bottom: 1.5rem;
+}
+.submit {
+  height: 2rem;
+  width: 5rem;
+  border: none;
+  color: #fff;
+  background-color: #732147;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  margin-bottom: 1.2rem;
+}
