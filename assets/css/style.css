@@ -81,7 +81,7 @@ body {
   color: #000;
 }
 .hero-section {
-  background-image: url("./assets/images/Bike\ Adventure.jpeg");
+  background-image: url("../images/Bike-Adventure.jpeg");
   background-repeat: no-repeat;
   background-position: right;
   height: max-content;
